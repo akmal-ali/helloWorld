@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include <iostream>
+#include "include/time.h"
+using namespace std;
 
-int main()
-{
-    printf("Hello world \n" );
-    printf("Ho there! \n");
+int main(){
+  Timestamp clock;
+  clock.getTime();
 }

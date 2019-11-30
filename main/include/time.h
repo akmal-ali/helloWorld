@@ -15,7 +15,3 @@ Timestamp::getTime(){
   printf("The time is 8:00 am \n");
 }
 
-int main(){
-  Timestamp clock;
-  clock.getTime();
-}
